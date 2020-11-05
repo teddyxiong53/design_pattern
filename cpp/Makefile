@@ -19,6 +19,12 @@ endef
 
 03_AbstractFactory:
 	$(compile_target)
+
+04_Singleton:
+	$(compile_target)
+
+05_Prototype:
+	$(compile_target)
 clean:
 	rm output -rf
 
